@@ -1,2 +1,4 @@
-# disable-on-screen-keyboard-on-pop_os
-Disable Caribou on-screen keyboard  
+# Disable on screen keyboard on Pop!\_OS
+Originally, a gnome shell [bug](https://bugs.launchpad.net/ubuntu/+source/gnome-shell/+bug/1723857) was reported about Caribou's on-screen keyboard popping up when just touching various non-text input elements. It seems like a patch has been implemented to resolve it, because `Gnome 3.30.1` does not illustrate the reported issue. However, the default settings for the on-screen keyboard is to appear whenever touching a text input or touching an icon that receives text input e.g. terminal and text editor.
+
+I have no use for the on-screen keyboard at all. There is no way to disable it within the settings for Pop!\_OS 18.10. The only solution for disabling the caribou on-screen keyboard is through the [block-caribou gnome extensions](https://extensions.gnome.org/extension/1326/block-caribou/). The gnome extension is not straight forward. The gnome extension requires the [Gnome shell integration Chrome extension](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep?utm_source=inline-install-disabled). After the chrome extension is installed, you can search for the block caribou gnome extension, install it, and then enable it.
